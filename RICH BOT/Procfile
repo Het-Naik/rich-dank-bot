@@ -1,1 +1,1 @@
-worker: python dis spam bot.py
+worker: python dis\ spam\ bot.py
