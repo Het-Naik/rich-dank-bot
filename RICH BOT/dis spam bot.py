@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-test_driver = webdriver.Chrome('/Users/mukti/chromedriver')
+test_driver = webdriver.Chrome('PATH/TO/CHROMEDRIVER')
 test_driver.get('linkOfTheTextChannelWhereYouWantToSpam')
 
 time.sleep(3)
