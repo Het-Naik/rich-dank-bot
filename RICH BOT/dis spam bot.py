@@ -7,12 +7,12 @@ test_driver.get('https://discord.com/channels/763021076283260958/775588110011596
 
 time.sleep(3)
 
-email = 'awesomehet@gmail.com'
+email = 'yourDiscordLoginGmail'
 gmail = test_driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[1]/div/div[2]/input')
 gmail.send_keys(email)
 
 
-psw = 'Het_Naik'
+psw = 'yourdiscordPassword'
 passs = test_driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[2]/div/input')
 passs.send_keys(psw)
 
